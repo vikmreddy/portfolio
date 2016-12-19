@@ -15,6 +15,8 @@ app.engine('html', mustache_express());
 app.set('view engine', 'mustache');
 app.set('views', __dirname + '/views');
 
+app.use('/static', express.static(__dirname + '/static'));
+
 app.get('/', function(req, res) {
 	res.render('index.html');
 	console.log('index is up!')
