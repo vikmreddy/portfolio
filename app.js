@@ -19,11 +19,22 @@ app.use('/static', express.static(__dirname + '/static'));
 
 app.get('/', function(req, res) {
 	res.render('index.html');
-	console.log('index is up!')
 });
 
 app.get('/index', function(req, res) {
 	res.render('index.html');
+});
+
+app.get('/aboutme', function(req, res) {
+	res.render('aboutme.html');
+});
+
+app.get('/projects', function(req, res) {
+	res.render('projects.html');
+});
+
+app.get('/goals', function(req, res) {
+	res.render('goals.html');
 });
 
 var server = app.listen(3000, function() {
