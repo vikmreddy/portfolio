@@ -1,17 +1,53 @@
 {{>header}}
 		<div class='row'></div>
 		<div class='row'></div>
+	
 		<div class='container'>
 			<div class='row'>
-				<div class='col s12 m12 l8 offset-l2'>
-					<div class='vertical-align wrapper'>
+				<div class='col s12 m12'>
 						<h2 class='center-align blue-text text-lighten-4'> 
 						on language, learning, and </h2>
 						<h3 class='right-align deep-orange-text text-lighten-4 utility-text'>
 						 utility.</h3>
-					</div>
 				</div>
+				<div class='center-align col s6 offset-s3 m6 offset-m3 l12'>
+					<form action='/stocks' method='GET'>
+						<div class='input-field col l12'>
+							<input class='center-align green-text text-lighten-3' type='text' placeholder='APPL' id='stock_name'>
+							<label class='active grey-text text-lighten-4' for='stock_name'>What is your favorite stock?
+							</label>
+						</div>
+						<div class='col l12'>
+							<input type='submit' class='btn green lighten-1 grey-text text-lighten-4' value='visualize it!'>
+						</div>
+					</form>
+				</div>
+				                <div class="col s12 m6 offset-m3">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="card-title green-text col s12 m5 offset-m4"></span>
+                            <form action="/login" method="POST" id="myform">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input placeholder="email address" name="username" id="username" type="text" class="validate">
+                                        <label for="username" class="active">Email Address</label>
+                                    </div>
+                                    <div class="input-field col s12">
+                                        <input placeholder="password" name="password" id="password" type="password" class="validate">
+                                        <label for="password"></label>
+                                    </div>
+                                    <div>
+                                      <div class="col s12 m6 offset-m4">
+                                      <input type="submit" class="btn light-green .center-align" value="Login">
+                                      </div>
+                            </form>
+                            </div>
+                            </div>
+                        </div>  
+                       </div>
+                       </div>
 			</div>
 		</div>
+
 {{>footer}}
 
