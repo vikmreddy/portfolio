@@ -21,3 +21,8 @@ input[type="tel"], input[type="number"], input[type="search"],
 textarea.materialize-textarea {
 	border-bottom: 1.5px solid black !important;
 }
+
+#why-data-science {
+	min-height: 400px;
+	max-height: 500px;
+}
