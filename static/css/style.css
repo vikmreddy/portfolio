@@ -26,3 +26,7 @@ textarea.materialize-textarea {
 	min-height: 400px;
 	max-height: 500px;
 }
+
+.card_size {
+	height: 300px;
+}

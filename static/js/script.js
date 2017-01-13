@@ -3,5 +3,6 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-	$('.scrollspy').scrollspy();
+	var options = [{scrollOffset: 300}]
+	$('.scrollspy').scrollspy(options);
 });
