@@ -28,5 +28,9 @@ textarea.materialize-textarea {
 }
 
 .card_size {
-	height: 300px;
+	height: 45%;
+}
+.img_size {
+	height: 70%;
+	width: 100%;
 }
