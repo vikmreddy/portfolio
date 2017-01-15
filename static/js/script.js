@@ -9,17 +9,6 @@ $(document).ready(function() {
 
 // Provides hover over project tile functionality
 // By calling the card's activator node in the DOM
-$(function() {
-    $('.card').mouseover(
-        function() {
-            $(this).find('> .card-image > img.activator').click();
-        }, 
-        function() {
-            $(this).find('> .card-reveal > .card-title').click();
-        }
-    );
-});
-
 $('.card')
 	.mouseover(
 		function(e) {

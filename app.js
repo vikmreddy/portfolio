@@ -41,6 +41,11 @@ app.get('/stocks', function(req, res) {
 	res.render('stocks.html');
 });
 
+app.get('/projects/redirect', function(req, res) {
+	res.redirect('http://google.com');
+});
+
+
 var server = app.listen(3000, function() {
 	var port = server.address().port;
 	console.log('The server is running on localhost at port ' + port);
