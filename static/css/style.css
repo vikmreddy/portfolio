@@ -34,3 +34,8 @@ textarea.materialize-textarea {
 	height: 70%;
 	width: 100%;
 }
+
+.scroll-adjust{
+padding-top:50px;
+margin-top:-50px;
+}
