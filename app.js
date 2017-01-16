@@ -29,10 +29,6 @@ app.get('/aboutme', function(req, res) {
 	res.render('aboutme.html');
 });
 
-app.get('/projects', function(req, res) {
-	res.render('projects.html');
-});
-
 app.get('/goals', function(req, res) {
 	res.render('goals.html');
 });
@@ -45,6 +41,9 @@ app.get('/projects/redirect', function(req, res) {
 	res.redirect('http://google.com');
 });
 
+app.get('/projects/ddi', function(req, res) {
+	res.render('ddi.html');
+});
 
 var server = app.listen(3000, function() {
 	var port = server.address().port;
