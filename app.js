@@ -45,7 +45,7 @@ app.get('/projects/ddi', function(req, res) {
 	res.render('ddi.html');
 });
 
-var server = app.listen(3000, function() {
+var server = app.listen(process.env.PORT || 3000, function() {
 	var port = server.address().port;
 	console.log('The server is running on localhost at port ' + port);
 });
