@@ -28,11 +28,10 @@ textarea.materialize-textarea {
 }
 
 .card_size {
-	height: 45%;
+	height: 40%;
 }
 .img_size {
-	height: 70%;
-	width: 100%;
+	height: 50%;
 }
 
 .scroll-adjust{
