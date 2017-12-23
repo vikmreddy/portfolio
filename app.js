@@ -18,16 +18,9 @@ app.set('views', __dirname + '/views');
 app.use('/static', express.static(__dirname + '/static'));
 
 app.get('/', function(req, res) {
-	res.render('index.html');
-});
-
-app.get('/index', function(req, res) {
-	res.render('index.html');
-});
-
-app.get('/aboutme', function(req, res) {
 	res.render('aboutme.html');
 });
+
 
 app.get('/goals', function(req, res) {
 	res.render('goals.html');
